@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panadería Don Pepe | Tradición en cada bocado</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .hero-bg {
+            background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1509440159596-0249088772ff?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80');
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+</head>
+<body class="bg-stone-50 text-stone-800 antialiased">
+
+    <header class="bg-amber-900 text-white p-4 shadow-md">
+        <nav class="container mx-auto flex justify-between items-center">
+            <h1 class="text-2xl font-bold tracking-tight">🥖 Panadería Don Pepe</h1>
+            <ul class="flex space-x-6">
+                <li><a href="#" class="hover:text-amber-200 transition">Inicio</a></li>
+                <li><a href="#productos" class="hover:text-amber-200 transition">Productos</a></li>
+                <li><a href="#contacto" class="hover:text-amber-200 transition">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero-bg h-[400px] flex items-center justify-center text-center text-white">
+        <div>
+            <h2 class="text-5xl font-extrabold mb-4">El sabor de lo artesanal</h2>
+            <p class="text-xl max-w-2xl mx-auto px-4">Recetas tradicionales pasadas de generación en generación. Horneamos con amor desde 1980.</p>
+        </div>
+    </section>
+
+    <section id="productos" class="container mx-auto py-16 px-4">
+        <h3 class="text-3xl font-bold text-center mb-12 text-amber-900">Nuestras Especialidades</h3>
+        
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="bg-white rounded-lg shadow-lg overflow-hidden border border-stone-200">
+                <img src="https://images.unsplash.com/photo-1585478259715-876acc5be8eb?auto=format&fit=crop&w=500&q=80" alt="Pan Artesanal" class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <h4 class="font-bold text-xl mb-2">Pan de Masa Madre</h4>
+                    <p class="text-stone-600">Corteza crujiente y miga aireada, fermentado por 24 horas.</p>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-lg shadow-lg overflow-hidden border border-stone-200">
+                <img src="https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&w=500&q=80" alt="Croissants" class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <h4 class="font-bold text-xl mb-2">Croissants de Mantequilla</h4>
+                    <p class="text-stone-600">Capas de hojaldre perfectas, dorados y crujientes al punto exacto.</p>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-lg shadow-lg overflow-hidden border border-stone-200">
+                <img src="https://images.unsplash.com/photo-1486427944299-d1955d23e34d?auto=format&fit=crop&w=500&q=80" alt="Repostería" class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <h4 class="font-bold text-xl mb-2">Pastelería Fina</h4>
+                    <p class="text-stone-600">Dulces momentos creados con los mejores ingredientes locales.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contacto" class="bg-stone-900 text-stone-300 py-12">
+        <div class="container mx-auto px-4 text-center">
+            <h3 class="text-2xl font-bold mb-4 text-white">Visítanos en Don Pepe</h3>
+            <p class="mb-2">📍 Calle de la Harina 123, Ciudad del Pan</p>
+            <p class="mb-2">📞 +55 500 123 456</p>
+            <p class="mb-6">⏰ Lunes a Sábado: 6:00 AM - 8:00 PM</p>
+            <div class="border-t border-stone-700 pt-8 text-sm">
+                &copy; 2026 Panadería Don Pepe. Todos los derechos reservados.
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
